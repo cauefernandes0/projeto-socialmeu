@@ -1,0 +1,61 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background: url("../imagens/background.jpg") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+section#telefone{
+    width: 423px;
+    height: 590px;
+
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url("../imagens/celular.png") no-repeat;
+}
+iframe#tela{
+    position: relative;
+    top: 81px;
+    left: 89px;
+    width: 245px;
+    height: 430px;
+    
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.438);
+    box-sizing: border-box;
+    
+
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.644);
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 4px black;
+    transition: transform 0.4s, border 1s;
+}
